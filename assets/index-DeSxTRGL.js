@@ -1,0 +1,1 @@
+import{j as t}from"./index-B1IYvx0M.js";import{S as s}from"./Skeleton-D3zW9zfH.js";const x=o=>{const{isLoading:a,children:e,rows:r,...n}=o;return t.jsx(t.Fragment,{children:a?r?r.map((i,m)=>t.jsx(s,{variant:"text",width:i,...n},m)):t.jsx(s,{variant:"text",...n,children:t.jsx("span",{children:e})}):e})};x.muiName="Skeleton";export{x as S};

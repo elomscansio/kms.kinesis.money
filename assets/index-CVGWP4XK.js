@@ -1,0 +1,1 @@
+import{et as t}from"./index-B1IYvx0M.js";import{b as c,i as l,c as a}from"./index-DMBgV4GW.js";const s=a.getCurrencyBoundaries.select(),r=t(s,e=>e==null?void 0:e.data);t(s,e=>(e==null?void 0:e.isLoading)??!0);const{selectAll:n,selectById:B,selectEntities:d}=c.getSelectors(e=>r(e)??l);export{B as a,d as s};

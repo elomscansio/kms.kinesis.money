@@ -1,0 +1,1 @@
+import{bi as e}from"./index-B1IYvx0M.js";import{i as n}from"./helpers-D0lXFcyB.js";const p=async(o,c,s)=>{var a;try{const r=await o.unwrap();return e.success(c),r}catch(r){const t="An unexpected error has occurred";throw n(r)?e.error(s??((a=r.data)==null?void 0:a.message)??t):e.error(s??t),r}};export{p as a};

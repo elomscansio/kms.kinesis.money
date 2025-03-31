@@ -1,0 +1,1 @@
+import{j as o,aT as r}from"./index-B1IYvx0M.js";import{m as a}from"./muiSxMerge-By-TMpOR.js";const i=()=>({padding:0,minHeight:"fit-content",maxHeight:"fit-content",backgroundColor:"transparent !important"}),s=({sx:t,...n})=>o.jsx(r,{component:"a",variant:"text",color:"primary",...n,sx:a(t,i)});export{s as L};

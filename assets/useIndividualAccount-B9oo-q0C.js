@@ -1,0 +1,1 @@
+import{r as o,b2 as i}from"./index-B1IYvx0M.js";import{b as u}from"./index-C4mvAiZ8.js";const d=()=>{const{data:r,...s}=u();return{individualAccount:o.useMemo(()=>r==null?void 0:r.find(({accountType:t,isOwner:e})=>(t===i.individual||t===i.admin)&&e),[r]),...s}};export{d as u};

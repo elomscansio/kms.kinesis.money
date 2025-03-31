@@ -1,0 +1,1 @@
+import{w as a,x as e}from"./index-B1IYvx0M.js";import{c as d,l as r}from"./Switch-mECX2JQG.js";const t=a(d,{shouldForwardProp:e(["bgColor"])})(({theme:o,bgColor:s})=>({height:4,borderRadius:90,width:"100%",[`&.${r.colorPrimary}`]:{backgroundColor:o.palette.grey[200]},[`& .${r.bar}`]:{backgroundColor:s,borderRadius:4}}));export{t as L};

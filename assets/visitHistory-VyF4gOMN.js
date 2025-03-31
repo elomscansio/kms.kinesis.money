@@ -1,0 +1,1 @@
+const c=t=>{const o=localStorage.getItem(t);return o?JSON.parse(o):[]},a=(t,o)=>{const s=c(t);s.push(o),localStorage.setItem(t,JSON.stringify(s))},n=(t,o)=>{const s=c(t);return Array.isArray(s)&&s.includes(o)},r=(t,o)=>{const s=c(t);if(o){const e=s.indexOf(o);e>-1&&s.splice(e,1),localStorage.setItem(t,JSON.stringify(s))}else localStorage.removeItem(t)};export{a,n as h,r};

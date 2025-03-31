@@ -1,0 +1,1 @@
+import{et as t}from"./index-B1IYvx0M.js";import{s as l,i as o,a}from"./index-BdZiPhrX.js";const s=a.getSymbolPrecision.select(),c=t(s,e=>e==null?void 0:e.data),r=t(s,e=>(e==null?void 0:e.isLoading)??!0),{selectAll:n,selectById:y,selectEntities:b}=l.getSelectors(e=>c(e)??o);export{b as a,y as b,r as s};

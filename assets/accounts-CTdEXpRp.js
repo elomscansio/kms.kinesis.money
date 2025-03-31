@@ -1,0 +1,1 @@
+import{aw as i}from"./index-B1IYvx0M.js";const s=(e,d)=>!!e&&e==="United States"||!!d&&d==="United States",t=(e,d,r)=>[e,d].includes(i.KVT)?r!=null&&r.citizenship?s(r.country,r.citizenship):!0:!1;export{t as h,s as i};

@@ -1,0 +1,1 @@
+import{r as n,I as p,b2 as s}from"./index-B1IYvx0M.js";import{b as f}from"./index-C4mvAiZ8.js";const A=(o={})=>{const{active:a}=o,{data:r,...c}=f();return{corporateAccounts:n.useMemo(()=>(r==null?void 0:r.filter(({accountType:t,kycStatus:u,isOwner:i})=>{const e=u!==p.registered;return t===s.individual?!i&&e:t===s.corporate?e:!1}))??[],[a,r]),...c}};export{A as u};
