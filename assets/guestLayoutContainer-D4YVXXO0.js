@@ -40,12 +40,12 @@ const k = () => {
         t.jsx(x, {}),
         t.jsxs(c, {
           children: [
-            t.jsx(f, {}),
+            t.jsx(f, {}),/* 
             t.jsx(g, {
               reCaptchaKey: u.googleCaptchaKey,
               useEnterprise: !0,
               children: t.jsx(d, { children: t.jsx(l, {}) }),
-            }),
+            }), */
           ],
         }),
       ],

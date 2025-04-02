@@ -28,13 +28,13 @@ import { g as Ge } from "./react-google-recaptcha-v3.esm-DONQIyn8.js";
 import { i as He, g as $e } from "./helpers-D0lXFcyB.js";
 import { F as Ke } from "./RateLimitModal-ebsrfP5_.js";
 const qe = () => {
-  const [b, { data: A, isLoading: w, error: T, reset: R }] = Oe({
+  /* const [b, { data: A, isLoading: w, error: T, reset: R }] = Oe({
       fixedCacheKey: "login-auth",
     }),
     S = ae(je),
     m = be(),
     g = we(),
-    { executeRecaptcha: c } = Ge();
+    { executeRecaptcha: c } = Ge(); */
   return (
     Re(
       U.useCallback(() => {

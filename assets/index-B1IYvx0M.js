@@ -22614,7 +22614,7 @@ var Wl = ((e) => (
   ci = ((e) => ((e.qrCode = "qrCode"), (e.sms = "sms"), e))(ci || {});
 xs.injectEndpoints({
   endpoints: (e) => ({
-    validateAuth: e.mutation({ queryFn: () => ({ data: void 0 }) }),
+    /* validateAuth: e.mutation({ queryFn: () => ({ data: void 0 }) }), */
     guestLogin: e.mutation({
       queryFn: () => (
         da.set("auth_token", Km(), { secure: !1, expires: 1 }), { data: void 0 }
@@ -22715,9 +22715,9 @@ xs.injectEndpoints({
 });
 const n5 = xs.injectEndpoints({
     endpoints: (e) => ({
-      validateAuth: e.mutation({
+      /* validateAuth: e.mutation({
         query: () => ({ method: "POST", url: "sessions/validate" }),
-      }),
+      }), */
       guestLogin: e.mutation({
         query: () => ({
           method: "POST",
@@ -22807,7 +22807,7 @@ const n5 = xs.injectEndpoints({
   {
     useGuestLoginMutation: TW,
     useMobileKycValidationMutation: AW,
-    useValidateAuthMutation: s5,
+    /* useValidateAuthMutation: s5, */
     useLogUserInMutation: RW,
     useTriggerSignUpMutation: CW,
     useVerifyUserAccountMutation: wW,
@@ -29431,7 +29431,7 @@ const CC = { emailVerified: !1 },
   K6 = () => {
     const e = Sh(),
       t = $a(),
-      [r, { isLoading: n, isUninitialized: i }] = s5(),
+      [r, { isLoading: n, isUninitialized: i }] = [() => {}, {}] /* s5() */,
       o = vn(mE),
       l = vn(q6),
       f = vn(B6),
@@ -29440,19 +29440,19 @@ const CC = { emailVerified: !1 },
       h = l && new Date(l),
       v = (h ? h > Y6 : !1) && !d && f !== Wl.kycVerified && !p;
     return (
-      P.useEffect(() => {
+      /* P.useEffect(() => {
         e(Gv(Ye.home.path));
       }, [e]),
       P.useEffect(() => {
         r();
-      }, [e, r]),
-      n || i
+      }, [e, r]), */
+      /* n || i
         ? z.jsx(t6, {})
         : o
         ? v
           ? z.jsx(Vt, { to: "register-mobile-number", replace: !0 })
           : z.jsx(sd, {})
-        : z.jsx(sd, {})/*  (e(Gv(t.pathname)), z.jsx(Vt, { to: Da.login.path, replace: !0 })) */
+        :  */z.jsx(sd, {})/*  (e(Gv(t.pathname)), z.jsx(Vt, { to: Da.login.path, replace: !0 })) */
     );
   },
   Q6 = () => {

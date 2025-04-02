@@ -33,10 +33,10 @@ const b = g(r, { shouldForwardProp: k(["isGuestExchange"]) })(
       i = h(),
       d = j(),
       l = p.useCallback(async () => {
-        d(m()), await i(t.login.path);
+        d(m())/* , await i(t.login.path) */;
       }, [d, i]),
       c = p.useCallback(async () => {
-        await i(t.signUp.path);
+        /* await i(t.signUp.path); */
       }, [i]),
       x = y([
         {
@@ -96,7 +96,7 @@ const b = g(r, { shouldForwardProp: k(["isGuestExchange"]) })(
           }),
         }),
         e.jsx(r, {
-          children:
+          children:[/* 
             x ??
             e.jsx(o, {
               size: "large",
@@ -105,7 +105,7 @@ const b = g(r, { shouldForwardProp: k(["isGuestExchange"]) })(
                 id: "odXlk8",
                 defaultMessage: [{ type: 0, value: "Log in" }],
               }),
-            }),
+            }), */]
         }),
       ],
     });
